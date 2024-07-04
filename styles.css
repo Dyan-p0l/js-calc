@@ -1,6 +1,11 @@
 html{
     font-family: 'Roboto', sans-serif;
-    background: #0068c6;
+   
+}
+
+body{
+    background-image: url(imgs/bg-img.svg);
+    background-size: cover;
 }
 
 .calc-cont{
@@ -14,6 +19,7 @@ html{
     border-radius: 15px;
     overflow: hidden;
     margin-top: 20px;
+    box-shadow: rgba(54, 54, 54, 0.729) 0px 5px 15px;
 }
 
 .field-cont{
